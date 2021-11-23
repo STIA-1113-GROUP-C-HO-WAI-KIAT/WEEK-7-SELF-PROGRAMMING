@@ -1,0 +1,34 @@
+package selfProgramming;
+
+public class For {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i;
+		
+		for ( i = 1; i<5; i++)
+			  System.out.print(i);
+		
+		System.out.println();
+		
+		for (i=1; i<3; i++){
+			System.out.print("YAHOO" + "");
+			System.out.print("***");
+		}
+		
+		
+		int num1, num2;
+		for(num2 = 0; num2 <= 2; num2++) 
+		{
+			for(num1 = 0; num1 <= 1; num1++) 
+			{
+				System.out.println(num2 + " " + num1); 
+				}
+			} 
+
+			}
+		
+
+
+
+	}
