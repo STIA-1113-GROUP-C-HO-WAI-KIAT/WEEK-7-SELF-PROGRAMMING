@@ -1,0 +1,22 @@
+package repetitionAndSelection;
+
+import java.util.Scanner;
+
+public class Exercise1BankPassword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		 System.out.print("Enter your password ");
+		 int password= sc.nextInt();
+		 while (password !=123456)
+		 {
+			 System.out.println("Password Wrong,forgot password?");
+			 System.out.print("Please re-enter your password ");
+			 password = sc.nextInt(); 
+			 }
+		 System.out.println("Password correct,enjoy!");
+
+	}
+
+}
