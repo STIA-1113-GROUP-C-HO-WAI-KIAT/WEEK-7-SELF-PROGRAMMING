@@ -1,6 +1,6 @@
-Enter your password 12
-Password Wrong,forgot password?
-Please re-enter your password 123
-Password Wrong,forgot password?
-Please re-enter your password 123456
-Password correct,enjoy!
+Enter your password 123
+Password worng,please enter the correct password.You're left 2 chance.
+Enter your password 1234
+Password worng,please enter the correct password.You're left 1 chance.
+Enter your password 12345
+Your password is correct.
