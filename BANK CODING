@@ -7,15 +7,24 @@ public class Exercise1BankPassword {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		
+		 for(int chance=2;chance>=0;chance--) {
 		 System.out.print("Enter your password ");
-		 int password= sc.nextInt();
-		 while (password !=123456)
-		 {
-			 System.out.println("Password Wrong,forgot password?");
-			 System.out.print("Please re-enter your password ");
-			 password = sc.nextInt(); 
-			 }
-		 System.out.println("Password correct,enjoy!");
+		 int password =sc.nextInt();
+         int pass = 12345;
+         if(password==pass) {
+	            System.out.println("Your password is correct.");
+	            break;
+	            
+	            }else
+	            System.out.print("Password worng,please enter the correct password.You're left " + chance +" chance.");
+	            System.out.println();
+	            
+	            
+		        if (chance==0) {
+	            System.out.print("Sorry, your account was terminated.Please inform the bank staff");
+		        }
+	}
 
 	}
 
